@@ -1,0 +1,77 @@
+.home {
+    margin-top: 50px;
+    padding: 80px 0 0 100px;
+    position: relative;
+    height: 100vh;
+    background: url('/Bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .home-header {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.home .home-header .home-style {
+    width: 100%;
+    color: #3382FF;
+}
+.home .home-information {
+    color: #595959;
+    padding: 10px;
+    width: 40%;
+    font-size: 13px;
+}
+.home-forms {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #135CD0;
+}
+.home .home-text {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding: 10px 20px;
+    margin: 7px 0 7px 20px;
+}
+.home .home-forms input {
+    padding: 10px 20px;
+    margin: 7px 0 7px 20px;
+    width: 30%;
+    border-radius: 12px;
+    border: 1px solid #3382FF;
+}
+.home .home-btn {
+    width: 140px;
+    height: 40px;
+    background-color: #2b77f1;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0 10px 20px;
+    border-radius: 12px;
+    border: none;
+    transition: all .6s;
+}
+.home .home-btn:hover {
+    cursor: pointer;
+    background-color: hsl(217, 90%, 41%);
+}
+.home .home-img1 {
+    position: absolute;
+    top: 200px;
+    right: 40%;
+
+}
+.home .home-img2 {
+    width: 1000px;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    z-index: 99;
+}

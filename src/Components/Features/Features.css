@@ -1,0 +1,48 @@
+.features {
+    height: 100vh;
+    background: url("/Bg.png");
+    padding-top: 50px;
+}
+.features .features-cards{
+    display: flex;
+}
+.features .features-card {
+    width: 800px;
+    height: 700px;
+}
+.features .features-subtitle {
+    color: #135CD0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 25px;
+    display: block;
+    margin-bottom: 15px;
+}
+.features .features-title {
+    font-size: 3rem;
+    font-weight: 550;
+    width: 70%;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+.features .features-system {
+    color: #3A7AFF;
+}
+.features .features-information {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.features .features-information .feature-texts {
+    color: #2B2B2B;
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 600;
+}
+.feature-paragraphs {
+    color: #2B2B2B;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 25px;
+}

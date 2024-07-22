@@ -1,0 +1,81 @@
+.container.Comments {
+  height: 100vh;
+  background: url("/Bg.png");
+  padding-top: 50px;
+  padding-inline: 50px;
+  margin: 30px 0;
+}
+.container.Comments .Comments_mainRow {
+  display: flex;
+  justify-content: space-around;
+}
+.container.Comments .Comments_header {
+  font-size: 3rem;
+  line-height: 72px;
+  font-weight: 500;
+  text-align: center;
+}
+.container.Comments .Comments_info {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.container.Comments .Comments_col_swiper {
+  display: flex;
+  width: 65%;
+  background: transparent;
+}
+.container.Comments .Comments_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container.Comments .Comments_col .Comments_col_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container.Comments .Comments_col .Comments_col_div img {
+  padding: 30px;
+}
+
+/* Swiper styles */
+.swiper {
+  margin-top: 100px;
+  width: 600px;
+  height: 300px;
+  background-color: transparent;
+}
+.SwiperSlide_info {
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 30px;
+  color: #2b2b2b;
+}
+.SwiperSlide_author {
+  font-size: 2rem;
+  line-height: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.swiper-slide {
+  padding: 30px;
+  border: 1px solid grey;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

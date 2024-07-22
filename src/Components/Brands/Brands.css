@@ -1,0 +1,134 @@
+.mySwipers1 {
+    width: 100%;
+    height: 100%; /* Swiper konteyneriga 100% balandlikni berish */
+}
+
+.swiper-columns, .Brands_col, .brandMianImg {
+    border: none; /* Chegaralarni olib tashlash */
+}
+
+.container.Brands {
+    height: 100vh; /* Konteynerga 100% balandlikni berish */
+    background: url("/Bg.png");
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container.Brands .Brands_header {
+    color: #3A7AFF;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* Qo'shimcha CSS qoidalari */
+.container.Brands .Brand_Row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.container.Brands .BrandsLeftSide {
+    margin-left: 50px;
+    background-color: #3A7AFF;
+    width: 70%;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.container.Brands .BransLeftSide_header {
+    color: white;
+    font-size: 3rem;
+    line-height: 72px;
+    padding-left: 100px;
+}
+
+.container.Brands .BrandsLeftSide_info {
+    font-size: 1rem;
+    line-height: 20px;
+    color: white;
+    letter-spacing: 1.5px;
+    padding-left: 100px;
+}
+
+.container.Brands .BrandsLeftSide_form__header {
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.container.Brands .BrandsLeftSide form {
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 17px;
+    background-color: white;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container.Brands .BrandsLeft_form_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.container.Brands .BrandsLeft_form_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.Brands .BrandsLeft_form_right_img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.container.Brands .BrandsLeftSide_form__header {
+    color: #003049;
+    font-size: 18px;
+}
+
+.Brands_col {
+    border: none;
+}
+
+.container.Brands .BrandsLeftSide form input {
+    padding: 10px 20px;
+    margin-block: 10px;
+    width: 100%;
+    border-radius: 13px;
+    border: 1px solid #3382FF;
+}
+
+.container.Brands .BrandsLeftSide_form__button {
+    width: 140px;
+    height: 40px;
+    background-color: hsl(217, 100%, 60%);
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0 10px 0;
+    border-radius: 12px;
+    border: none;
+    transition: all .6s;
+}
+
+.container.Brands .BrandsLeftSide_form__button:hover {
+    cursor: pointer;
+    background-color: hsl(217, 100%, 45%);
+}
+
+.container.Brands .BrandsMainRow {
+    position: relative;
+    margin-top: 50px;
+}
+
+.container.Brands .Brand_mainImg {
+    position: absolute;
+    top: -30px;
+    right: 0;
+}

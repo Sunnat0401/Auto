@@ -1,0 +1,26 @@
+.container.Footer {
+    height: auto;
+    background-color: white;
+    padding-top: 100px;
+    padding-inline: 70px;
+    padding-bottom: 50px;
+}
+.container.Footer .Footer_mainRow {
+    display: flex;
+}
+.container.Footer .col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.container.Footer .Footer_mainRow_row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.container.Footer .Footer_mainRow_row_Inner {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
